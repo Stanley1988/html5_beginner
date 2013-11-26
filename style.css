@@ -35,7 +35,7 @@ nav {
     position: absolute;  
     left: 0;  
     width: 100%;  
-    background: url("nav_background");  
+    background: url("ll.jpg");  
 } 
 
 nav ul {  
@@ -77,7 +77,7 @@ nav ul li a {
 #intro {  
     margin-top: 66px;  
     padding: 44px;  
-    
+    background: #467612 url("Tulips.jpg") repeat-x;
     background-size: 100%;  
     border-radius: 22px;
 
@@ -90,7 +90,7 @@ nav ul li a {
     -moz-border-radius: 22px;  
     -webkit-border-radius: 22px; 
 	
-	background: #467612 url("intro_background.png") top left (287px 100%) repeat-x,url("intro_flower.png") top rightright (653px 100%) no-repeat;
+	
 }  
 
 #intro h2, #intro p¬†{  
@@ -121,5 +121,34 @@ nav ul li a {
   
     aside {  
         display: table-cell;  
-        width: 300px;  
+        width: 300px;
+		padding: 21px;
+		background: #E3E3E3;
+		border: 1px solid #d7d7d7;
+		
     } 
+	
+.blogPost div {  
+    /* Column-count not implemented yet */  
+    -moz-column-count: 2;  
+    -webkit-column-count: 2;  
+  
+    /* Column-gap not implemented yet */  
+    -moz-column-gap: 22px;  
+    -webkit-column-gap: 22px;  
+} 
+
+.blogPost img {  
+    margin: 22px 0;  
+    -webkit-box-shadow: 3px 3px 7px #777;  
+} 
+
+section#comments article:nth-child(2n+1) {  
+    padding: 21px;  
+    background: #E3E3E3;  
+    border: 1px solid #d7d7d7;  
+  
+    /* Border-radius not implemented yet */  
+    -moz-border-radius: 11px;  
+    -webkit-border-radius: 11px;  
+}   
